@@ -9,6 +9,7 @@ import UseMemo from './hooks/04-useMemo/UseMemo'
 import UseCallback from './hooks/05-useCallback/UseCallback'
 import Profile from './components/Profile'
 import UseReducer from './hooks/07-useReducer/UseReducer'
+import UseLayoutEffect from './hooks/08-useLayoutEffect/UseLayoutEffect'
 
 const App = () => {
   return (
@@ -22,7 +23,8 @@ const App = () => {
      {/* <UseMemo /> */}
      {/* <UseCallback /> */}
      {/* <Profile /> */}
-     <UseReducer />
+     {/* <UseReducer /> */}
+     <UseLayoutEffect />
     </div>
   )
 }
