@@ -10,6 +10,7 @@ import UseCallback from './hooks/05-useCallback/UseCallback'
 import Profile from './components/Profile'
 import UseReducer from './hooks/07-useReducer/UseReducer'
 import UseLayoutEffect from './hooks/08-useLayoutEffect/UseLayoutEffect'
+import CustomHook from './hooks/09-customHook/CustomHook'
 
 const App = () => {
   return (
@@ -24,7 +25,8 @@ const App = () => {
      {/* <UseCallback /> */}
      {/* <Profile /> */}
      {/* <UseReducer /> */}
-     <UseLayoutEffect />
+     {/* <UseLayoutEffect /> */}
+     <CustomHook />
     </div>
   )
 }
