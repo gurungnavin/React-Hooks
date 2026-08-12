@@ -28,11 +28,11 @@ export default UseRefExample
 /* 
 Wallet analogy for useRef (polished)
 - our wallet is where you keep your money and cards safe.
-
 - No matter how many times you put money in or take money out, the wallet itself doesn’t change its shape or size.
-
 - It just quietly holds your stuff while you do other things.
-
 ^ In React, useRef works the same way — it keeps a value safe between renders (even if other parts change) without causing the component to re-render or change how it looks.
 
+- It's private property — only you can open the wallet and change what's inside, nobody else reacts.
+- useState is the opposite: like a sign around your neck — change it, and everyone turns to look (re-render happens).
+- Same job (holding a value), different rule: does changing it need to update the screen? Yes → useState. No → useRef.
 */
